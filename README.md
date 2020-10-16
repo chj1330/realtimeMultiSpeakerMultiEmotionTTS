@@ -3,7 +3,7 @@
 + FastSpeech 기반 다화자 다감정 end-to-end 음성 합성 시스템
   + 모델 모식도 (훈련)
 
-## Demo 실행 방법
+## Demo 실행 예시
 1. 실시간 TTS Demo 실행 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 2. Install & Setup 섹션 실행 (3~4분 소요)
 3. Synthesis 섹션 실행
@@ -18,5 +18,5 @@
 > 1.0
 RTF=0.030897
 ```
-4. 합성음 확인
+4. [합성음](https://drive.google.com/file/d/1DCNd3HFNW06qS3Xno75o7tVBlycFbbfq/view?usp=sharing) 확인
 
