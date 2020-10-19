@@ -29,4 +29,4 @@ RTF=0.030897
 ## Reference
 + Y. Ren et al., "Fastspeech: Fast, robust and controllable text to speech", NIPS 2019.
 + T. Hayashi et al., "Espnet-TTS: Unified, Reproducible, and Integratable Open Source End-to-End Text-to-Speech Toolkit," ICASSP 2020. [espnet/espnet](https://github.com/espnet/espnet)
-+ R. Yamamoto, E. Song and J. Kim, "Parallel Wavegan: A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram," ICASSP 2020. [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN
++ R. Yamamoto, E. Song and J. Kim, "Parallel Wavegan: A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram," ICASSP 2020. [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN)
