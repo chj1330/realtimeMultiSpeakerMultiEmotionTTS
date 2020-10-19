@@ -9,6 +9,8 @@
       + Embedding lookup table (Speaker)
     + Mel-to-Waveform prediction
       + Parallel WaveGAN vocoder
+## Requirements
++ 구글 계정 
 ## Demo 실행 예시
 1. 실시간 TTS Demo 실행 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QpuztZ7fpJ0GHW0WaqXIfuw7nzUtNBY7?usp=sharing)
 2. Install & Setup 섹션 실행 (3~4분 소요)
