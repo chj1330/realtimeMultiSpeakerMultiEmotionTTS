@@ -1,9 +1,16 @@
 # DNN 음성 합성기 (음색+감정) 오픈소스
 ## 소개
 + FastSpeech 기반 다화자 다감정 end-to-end 음성 합성 시스템
-  + 모델 모식도 (훈련)
-    + Fastspeech + Supervised emotion token model + Speaker model
-    ![그림1](https://user-images.githubusercontent.com/20178889/96396006-0f8b8080-1201-11eb-97a5-419ba93f849f.png)
+  + 모델 모식도
+    ![그림2](https://user-images.githubusercontent.com/20178889/96400046-c809f200-120a-11eb-8f5f-13ffd76a0ecb.png)
+    + Text-to-Mel prediction
+      + Fastspeech 
+    + Emotion model
+      + Supervised emotion token model
+    + Speaker model
+      + Embedding lookup table
+    + Mel-to-Waveform prediction
+      + Parallel WaveGAN vocoder
 ## Demo 실행 예시
 1. 실시간 TTS Demo 실행 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 2. Install & Setup 섹션 실행 (3~4분 소요)
@@ -22,4 +29,5 @@ RTF=0.030897
 4. [합성음](https://drive.google.com/file/d/1DCNd3HFNW06qS3Xno75o7tVBlycFbbfq/view?usp=sharing) 확인
 
 ## Reference
-
++ T. Hayashi et al., "Espnet-TTS: Unified, Reproducible, and Integratable Open Source End-to-End Text-to-Speech Toolkit," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 7654-7658. [espnet/espnet](https://github.com/espnet/espnet)
++ R. Yamamoto, E. Song and J. Kim, "Parallel Wavegan: A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 6199-6203. [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN)
