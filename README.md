@@ -5,10 +5,8 @@
     ![그림2](https://user-images.githubusercontent.com/20178889/96400046-c809f200-120a-11eb-8f5f-13ffd76a0ecb.png)
     + Text-to-Mel prediction
       + Fastspeech 
-    + Emotion model
-      + Supervised emotion token model
-    + Speaker model
-      + Embedding lookup table
+      + Supervised emotion token model (Emotion)
+      + Embedding lookup table (Speaker)
     + Mel-to-Waveform prediction
       + Parallel WaveGAN vocoder
 ## Demo 실행 예시
